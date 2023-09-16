@@ -19,21 +19,9 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 @Test
-public class Saucedemo3 {
+public class Saucedemo3 extends Screenshotutility {
 	WebDriver driver;
-	public void captureScreenshot(WebDriver driver , String tName) throws IOException {
-
-
-			TakesScreenshot ts = (TakesScreenshot) driver;
-
-
-			File src = ts.getScreenshotAs(OutputType.FILE);
-			File Target = new File(System.getProperty("user.dir")+"/screenshots/" +tName+".png");
-			FileUtils.copyFile(src, Target);
-		
-
-
-	}
+	
 	
 
 	@BeforeSuite

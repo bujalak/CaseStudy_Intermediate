@@ -7,7 +7,7 @@
         <parameter name="invaliduser" value="standard_Invaliduse" />
         <parameter name="invalidpassword" value="secret_Invalidpw" />
         <classes>
-            <class name="Testng.Saucedemo3" />
+            <class name="Testng.Saucedemo3"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
